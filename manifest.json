@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Force Picture-in-Picture",
   "version": "1.0.0",
-  "description": "Removes sites' PiP blocks on videos and adds an Alt+P shortcut to toggle Picture-in-Picture.",
+  "description": "Picture-in-Picture for any video, including anime streaming sites. Removes disabled PiP and adds an Alt+P shortcut.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
