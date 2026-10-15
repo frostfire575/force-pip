@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:1280px;height:800px;overflow:hidden;font-family:Inter,"Segoe UI",sans-serif;color:#f1f5f9;background:#0b0612}
+.bg{position:absolute;inset:-60px;background:url(scene.png) center/cover;filter:blur(38px) saturate(1.3);transform:scale(1.1)}
+.grade{position:absolute;inset:0;background:linear-gradient(100deg,rgba(11,6,18,.92) 0%,rgba(11,6,18,.7) 45%,rgba(60,15,40,.35) 100%)}
+.vig{position:absolute;inset:0;box-shadow:inset 0 0 220px rgba(0,0,0,.65)}
+h1{position:absolute;left:64px;top:70px;margin:0;font:900 60px/1 Montserrat,sans-serif;letter-spacing:-2px;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+h1 span{background:linear-gradient(90deg,#ffb36b,#ff5e8a);-webkit-background-clip:text;color:transparent}
+.sub{position:absolute;left:64px;top:250px;font-size:26px;font-weight:500;color:#cbd5e1;line-height:1.5;width:470px}
+.key{display:inline-block;min-width:46px;text-align:center;padding:3px 14px;margin:0 2px;border-radius:10px;font-weight:600;color:#fff;background:linear-gradient(#3b2a4d,#251a33);border:1px solid #6b5280;border-bottom:4px solid #150d20;box-shadow:0 6px 18px rgba(255,94,138,.25)}
+.chips{position:absolute;left:64px;top:420px;flex-wrap:wrap;width:480px;display:flex;gap:12px}
+.chip{padding:9px 18px;border-radius:999px;font-size:18px;font-weight:600;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(8px)}
+.win{position:absolute;left:600px;top:96px;width:610px;height:470px;border-radius:16px;background:rgba(20,14,32,.78);border:1px solid rgba(255,255,255,.14);box-shadow:0 40px 90px rgba(0,0,0,.6);backdrop-filter:blur(14px);overflow:hidden;transform:perspective(1400px) rotateY(-6deg)}
+.bar{height:44px;background:rgba(255,255,255,.07);display:flex;align-items:center;gap:8px;padding:0 16px}
+.d{width:12px;height:12px;border-radius:50%}
+.url{margin-left:16px;flex:1;height:26px;border-radius:13px;background:rgba(255,255,255,.1)}
+.page{padding:30px 36px}
+.page b{display:block;font-size:24px;margin-bottom:20px;color:#fff}
+.l{height:11px;border-radius:6px;background:rgba(255,255,255,.14);margin:15px 0}
+.pipwrap{position:absolute;left:700px;top:380px;width:520px;transform:rotate(-2.5deg)}
+.glow{position:absolute;inset:-30px;background:radial-gradient(closest-side,rgba(255,110,90,.55),transparent 72%);filter:blur(10px)}
+.pip{position:relative;width:520px;height:292px;border-radius:14px;overflow:hidden;background:url(scene.png) center/cover;box-shadow:0 36px 80px rgba(0,0,0,.75),0 0 0 2px rgba(255,255,255,.35)}
+.pip:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 62%,rgba(0,0,0,.7))}
+.ctl{position:absolute;left:18px;right:18px;bottom:16px;z-index:2}
+.prog{height:5px;border-radius:3px;background:rgba(255,255,255,.35)}.prog i{display:block;width:41%;height:100%;border-radius:3px;background:#ff5e8a}
+.badge{position:absolute;top:12px;right:12px;z-index:2;padding:5px 12px;border-radius:8px;font-size:14px;font-weight:600;background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.25)}
+</style></head><body>
+<div class="bg"></div><div class="grade"></div><div class="vig"></div>
+<h1>Pop it out.<br><span>Keep watching.</span></h1>
+<div class="sub">Press <span class="key">Alt</span>+<span class="key">P</span> and keep watching while you browse or work.</div>
+<div class="chips"><span class="chip">Unblocks disabled PiP</span><span class="chip">Anime streaming sites</span><span class="chip">No data collected</span></div>
+<div class="win"><div class="bar"><i class="d" style="background:#ff5f57"></i><i class="d" style="background:#febc2e"></i><i class="d" style="background:#28c840"></i><span class="url"></span></div>
+<div class="page"><b>Study notes</b><div class="l" style="width:92%"></div><div class="l" style="width:76%"></div><div class="l" style="width:88%"></div><div class="l" style="width:60%"></div><div class="l" style="width:84%"></div><div class="l" style="width:70%"></div></div></div>
+<div class="pipwrap"><div class="glow"></div><div class="pip"><span class="badge">PiP</span><div class="ctl"><div class="prog"><i></i></div></div></div></div>
+</body></html>
